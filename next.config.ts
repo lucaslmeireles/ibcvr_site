@@ -28,6 +28,12 @@ const nextConfig: NextConfig = {
         hostname: "www.pngmart.com",
         port: "",
         pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.ctfassets.net",
+        port: "",
+        pathname: "/**",
       }
     ]
   }
